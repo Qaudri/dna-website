@@ -1,12 +1,16 @@
 <template>
+    <TypographyP class="bg-secondary text-center" color="white">We Are Mobile!</TypographyP>
     <Navbar />
-    <header class="py-20">
-      <Container>
-        <TypographyH1 color="white">
+    <header class="">
+      <Container class="grid lg:grid-cols-2 items-center">
+        <div class="py-8">
+          <TypographyH1>
           Trustworthy <br> Paternity <br> Testing
         </TypographyH1>
-        <TypographyP color="white">15 Years of Accurate, Convenient, and Private DNA Testing Services.</TypographyP>
+        <TypographyP>15 Years of Accurate, Convenient, and Private DNA Testing Services.</TypographyP>
         <ButtonsPrimary class="border border-white mt-4">Learn More</ButtonsPrimary>
+        </div>
+        <img src="/head.jpg" class="aspect-square object-cover w-full" alt="">
       </Container>
     </header>
 
@@ -142,6 +146,14 @@
       </div>
     </Container>
 
+    <section class="bg-primary">
+      <Container class="py-20">
+        <TypographyH2 class="text-center lg:w-2/3 mx-auto captalize">Coming Soon  - BBL Lab Testing, Drug Testing
+        </TypographyH2>
+        <TypographyP class="text-center mt-4">Mobile DNA testing company offering services like paternity testing, grandparentage testing, sibling tests, gender reveals, and immigration paternity tests—all designed to be private, affordable, and convenient. We’re also coming soon with drug testing and BBL (Brazilian Butt Lift) lab testing.
+        </TypographyP>
+      </Container>
+    </section>
     <Footer />
 </template>
 <style>
@@ -151,9 +163,10 @@ body {
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
-header {
-  background: url('/header.jpg');
+/* header {
+  background: url('/head.jpg'), black;
+  background-blend-mode: screen;
   background-size: cover;
   background-position: center;
-}
+} */
 </style>
