@@ -15,10 +15,10 @@
       <nav :class="menu_revealed ? 'translate-x-0' : '-translate-x-full'" class="md:h-fit z-0 md:static w-full md:w-fit fixed h-screen left-0 top-20 md:top duration-150 ease-in-out md:translate-x-0 bg-white">
         <ul class="grid grid-cols-1 place-items-center md:flex gap-5 md:gap-3 lg:gap-5 items-center px-6 pt-10 md:p-0">
           <li>
-            <ButtonsSecondary @clicked="$router.push({path: '/blog'})">Blog</ButtonsSecondary>
+            <ButtonsSecondary @clicked="$router.push({path: '/blog'})">Get in touch</ButtonsSecondary>
           </li>
           <li >
-            <ButtonsPrimary @clicked="$router.push({name: 'contact'})">Contact Us</ButtonsPrimary>
+            <ButtonsPrimary @clicked="$router.push({name: 'pay'})">Make Payment</ButtonsPrimary>
           </li>
         </ul>
       </nav>
